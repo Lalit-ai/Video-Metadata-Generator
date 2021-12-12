@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Video Summarizer</title>
+		<meta charset = "utf-8">
+        <meta http-equip = "X-UA-Compatible" content = "IE=edge">
+        <meta name = "viewport" content ="width=device-width , initial-scale=1">
+        <link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity = "sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin = "anonymous">
+        <link href='https://fonts.googleapis.com/css?family=Chela One' rel='stylesheet'>
+        <link rel = "stylesheet" href = "../static/style.css">
+    </head>
+	<body>
+        <h1 align="center">Video Summarizer</h1>
+        <h4 align ="center"> Search Result.....</h4>
+        <div class = "container1">
+           {% for each in video_result %}
+                {{ each }}<br>
+            {% endfor %}
+        </div>
+        <div class = "container">
+            <form method = "POST" action ="/exit" enctype ="multipart/form-data">
+                <button type = "submit" class = "btn button1">GoTo Index</button>
+            </form>
+        </div>
+	</body>
+</html>
