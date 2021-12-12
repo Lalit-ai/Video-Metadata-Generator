@@ -37,6 +37,7 @@ deactivate
 mkdir temp
 mkdir video_db
 mkdir caption_db
+
 # Run the App.py
 python3 app.py
 
