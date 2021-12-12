@@ -33,6 +33,7 @@ deactivate
 ## Executing script
 
 ```bash
+# Create necessary directories
 mkdir temp
 mkdir video_db
 mkdir caption_db
