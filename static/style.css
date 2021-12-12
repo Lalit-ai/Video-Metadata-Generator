@@ -1,0 +1,155 @@
+@import "compass/css3";
+
+@import url("https://fonts.googleapis.com/css?family=Lato");
+$background: #e74c3c;
+$file-upload-color: #c0392b;
+$file-upload-size: 300px;
+
+* {
+    margin: 10;
+    padding: 0;
+    font-family: Lato, Arial; 
+    @include box-sizing(border-box);
+}
+body { 
+    color: #000;
+    padding: 75px 20px;
+    background-color: #3aafa9;
+}
+h1 {
+	color:#FeFFFF;
+    font-weight: normal;
+    font-size: 100px;
+    letter-spacing: 3px;
+    font-family: 'Chela One';
+    font-weight: normal;
+    text-transform: uppercase;
+    span { 
+        font-size: 13px;
+        display: block;
+        padding-left: 4px;
+    }
+}
+h3 {
+  color:#17252a;
+    font-weight: normal;
+    font-size: 50px;
+    letter-spacing: 3px;
+    font-family: 'Chela One';
+    font-weight: normal;
+    text-transform: uppercase;
+    span { 
+        font-size: 13px;
+        display: block;
+        padding-left: 4px;
+    }
+}
+h4{
+	color:#17252a;
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-family:'sans-serif';
+    font-weight: normal;
+    span { 
+        font-size: 20px;
+        display: block;
+        padding-left: 4px;
+    }
+}
+
+p{
+  color:#def2f1;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0px;
+    font-family:'monospace';
+    font-weight: normal;
+    span { 
+        font-size: 20px;
+        display: block;
+        padding-left: 4px;
+    }
+}
+
+label{
+	color:#17252a;
+    font-weight: 200;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-family: Arial;
+    font-weight: normal;
+}
+
+
+p{
+  margin-top: 75px;
+}
+
+.btn {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+	margin: 50px auto;
+	display:block;
+	background-color: #2b7a78; 
+	color: black; 
+}
+
+.button1:hover {
+  background-color: #17252A;
+  color: white;
+}
+
+.button2 {
+  margin: 50px auto;
+  display:block;
+  background-color: white; 
+  color: black; 
+}
+
+.button2:hover {
+  background-color: #2b7a78;
+  color: white;
+}
+
+::placeholder {
+  color: #17252A;
+  opacity: 1; /* Firefox */
+}
+
+.search-section{
+  margin:auto;
+}
+
+.search-section input{
+  padding: 16px 32px;
+  margin: 50px auto;
+  display:block;
+}
+
+.search-section input:hover{
+  padding: 16px 32px;
+  margin: 50px auto;
+  display:block;
+}
+.container1 {
+  background-color: #FeFFFF;    
+  text-align: center;
+  padding: 20px 30%;
+  margin: 50px 200px;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-family:'sans-serif';
+}
